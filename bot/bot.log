@@ -1,0 +1,150 @@
+2023-09-15 23:00:07,888 [INFO]: Scheduler started
+2023-09-15 23:00:45,527 [INFO]: Using C:\Users\Admin\AppData\Local\Temp\tfhub_modules to cache modules.
+2023-09-15 23:01:01,638 [INFO]: Fingerprint not found. Saved model loading will continue.
+2023-09-15 23:47:49,669 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-15 23:47:49,671 [INFO]: Scheduler has been shut down
+2023-09-15 23:48:07,189 [INFO]: Scheduler started
+2023-09-15 23:48:31,900 [INFO]: Using C:\Users\Admin\AppData\Local\Temp\tfhub_modules to cache modules.
+2023-09-15 23:48:47,185 [INFO]: Fingerprint not found. Saved model loading will continue.
+2023-09-15 23:56:31,863 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:31,864 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:37,041 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:37,041 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:43,235 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:43,236 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:50,907 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:50,908 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:57,830 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:57,831 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:08,136 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:08,136 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:23,510 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:23,510 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:26,859 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-15 23:57:26,859 [INFO]: Scheduler has been shut down

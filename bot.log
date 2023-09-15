@@ -1,0 +1,237 @@
+2023-09-15 23:56:31,377 [INFO]: Scheduler started
+2023-09-15 23:56:35,949 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:35,949 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:41,640 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:41,640 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:48,575 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:48,576 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:54,370 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:56:54,370 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:02,991 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:02,991 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:15,826 [ERROR]: Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:15,826 [ERROR]: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\ext\extbot.py", line 226, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 3057, in get_updates
+    self._post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\bot.py", line 298, in _post
+    return self.request.post(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Admin\PycharmProjects\TestTask_AyanTex\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2023-09-15 23:57:29,736 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-15 23:57:29,736 [INFO]: Scheduler has been shut down
+2023-09-15 23:57:41,866 [INFO]: Scheduler started
+2023-09-15 23:58:27,512 [ERROR]: Произошла ошибка шаблона: [Errno 2] No such file or directory: 'uploads/template.jpg'
+2023-09-15 23:58:42,106 [ERROR]: Произошла ошибка изображения: [Errno 2] No such file or directory: 'uploads/271200239uploaded_image.jpg'
+2023-09-15 23:59:57,537 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-15 23:59:57,537 [INFO]: Scheduler has been shut down
+2023-09-16 00:00:07,452 [INFO]: Scheduler started
+2023-09-16 00:00:20,052 [ERROR]: Произошла ошибка шаблона: [Errno 2] No such file or directory: 'uploads/template.jpg'
+2023-09-16 00:02:19,210 [ERROR]: Произошла ошибка изображения: [Errno 2] No such file or directory: 'uploads/uploaded_image.jpg'
+2023-09-16 00:03:32,330 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:03:32,330 [INFO]: Scheduler has been shut down
+2023-09-16 00:03:44,741 [INFO]: Scheduler started
+2023-09-16 00:03:52,999 [ERROR]: Произошла ошибка изображения: [Errno 2] No such file or directory: 'uploads/uploaded_image.jpg'
+2023-09-16 00:04:12,707 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:04:12,708 [INFO]: Scheduler has been shut down
+2023-09-16 00:04:28,305 [INFO]: Scheduler started
+2023-09-16 00:04:37,992 [ERROR]: Произошла ошибка изображения: [Errno 2] No such file or directory: 'uploads/uploaded_image.jpg'
+2023-09-16 00:10:09,000 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:10:09,000 [INFO]: Scheduler has been shut down
+2023-09-16 00:10:16,825 [INFO]: Scheduler started
+2023-09-16 00:10:35,830 [ERROR]: Произошла ошибка изображения: [Errno 2] No such file or directory: 'uploads/uploaded_image.jpg'
+2023-09-16 00:11:24,468 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:11:24,468 [INFO]: Scheduler has been shut down
+2023-09-16 00:11:31,451 [INFO]: Scheduler started
+2023-09-16 00:11:42,777 [ERROR]: Произошла ошибка изображения: [Errno 2] No such file or directory: 'C:/Users/Admin/PycharmProjects/TestTask_AyanTex/bot/uploads/uploads/uploaded_image.jpg'
+2023-09-16 00:12:00,913 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:12:00,913 [INFO]: Scheduler has been shut down
+2023-09-16 00:12:07,876 [INFO]: Scheduler started
+2023-09-16 00:12:29,250 [INFO]: Using C:\Users\Admin\AppData\Local\Temp\tfhub_modules to cache modules.
+2023-09-16 00:12:46,351 [INFO]: Fingerprint not found. Saved model loading will continue.
+2023-09-16 00:12:57,052 [ERROR]: Ошибка в preprocess_image: OpenCV(4.8.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2023-09-16 00:12:57,052 [ERROR]: Ошибка в detect_objects_and_extract_text: 'NoneType' object is not subscriptable
+2023-09-16 00:12:57,052 [ERROR]: Ошибка в compare_text_similarity: object of type 'NoneType' has no len()
+2023-09-16 00:16:29,741 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:16:29,741 [INFO]: Scheduler has been shut down
+2023-09-16 00:16:38,583 [INFO]: Scheduler started
+2023-09-16 00:16:52,627 [ERROR]: Произошла ошибка шаблона: [Errno 2] No such file or directory: 'uploads/template.jpg'
+2023-09-16 00:17:40,612 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:17:40,612 [INFO]: Scheduler has been shut down
+2023-09-16 00:17:48,563 [INFO]: Scheduler started
+2023-09-16 00:17:59,623 [ERROR]: Произошла ошибка шаблона: [Errno 2] No such file or directory: 'uploads/template.jpg'
+2023-09-16 00:19:04,226 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:19:04,227 [INFO]: Scheduler has been shut down
+2023-09-16 00:19:16,644 [INFO]: Scheduler started
+2023-09-16 00:19:29,224 [ERROR]: Произошла ошибка шаблона: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /upload_template (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D0BC12DFD0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2023-09-16 00:20:34,626 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:20:34,626 [INFO]: Scheduler has been shut down
+2023-09-16 00:23:22,871 [INFO]: Scheduler started
+2023-09-16 00:24:22,170 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:24:22,170 [INFO]: Scheduler has been shut down
+2023-09-16 00:24:30,405 [INFO]: Scheduler started
+2023-09-16 00:29:11,773 [INFO]: Scheduler started
+2023-09-16 00:30:10,042 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:30:10,043 [INFO]: Scheduler has been shut down
+2023-09-16 00:30:21,942 [INFO]: Scheduler started
+2023-09-16 00:32:06,523 [INFO]: Scheduler started
+2023-09-16 00:32:36,532 [ERROR]: Произошла ошибка шаблона: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /upload_template (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EB519716D0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2023-09-16 00:35:15,806 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:35:15,807 [INFO]: Scheduler has been shut down
+2023-09-16 00:35:31,307 [INFO]: Scheduler started
+2023-09-16 00:37:45,164 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-16 00:37:45,164 [INFO]: [33mPress CTRL+C to quit[0m
+2023-09-16 00:38:47,092 [INFO]: Scheduler started
+2023-09-16 00:39:13,471 [INFO]: Scheduler started
+2023-09-16 00:39:35,810 [ERROR]: Произошла ошибка шаблона: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /upload_template (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000244D076E040>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2023-09-16 00:40:59,813 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:40:59,813 [INFO]: Scheduler has been shut down
+2023-09-16 00:41:04,046 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-16 00:41:04,046 [INFO]: [33mPress CTRL+C to quit[0m
+2023-09-16 00:41:19,954 [INFO]: Scheduler started
+2023-09-16 00:41:30,359 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-16 00:41:30,359 [INFO]: [33mPress CTRL+C to quit[0m
+2023-09-16 00:41:56,433 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:41:56,434 [INFO]: Scheduler has been shut down
+2023-09-16 00:43:35,511 [INFO]: Scheduler started
+2023-09-16 00:44:18,200 [INFO]: Scheduler started
+2023-09-16 00:47:20,813 [INFO]: Scheduler started
+2023-09-16 00:47:45,423 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-16 00:47:45,424 [INFO]: [33mPress CTRL+C to quit[0m
+2023-09-16 00:48:11,077 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:48:11,078 [INFO]: Scheduler has been shut down
+2023-09-16 00:53:27,190 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2023-09-16 00:53:27,190 [INFO]: [33mPress CTRL+C to quit[0m
+2023-09-16 00:53:32,143 [INFO]: Scheduler started
+2023-09-16 00:53:55,621 [INFO]: 127.0.0.1 - - [16/Sep/2023 00:53:55] "POST /upload_template HTTP/1.1" 200 -
+2023-09-16 00:54:29,526 [INFO]: Using C:\Users\Admin\AppData\Local\Temp\tfhub_modules to cache modules.
+2023-09-16 00:54:46,482 [INFO]: Fingerprint not found. Saved model loading will continue.
+2023-09-16 00:56:52,284 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:56:52,285 [INFO]: Scheduler has been shut down
+2023-09-16 00:57:10,176 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2023-09-16 00:57:10,176 [INFO]: [33mPress CTRL+C to quit[0m
+2023-09-16 00:57:16,063 [INFO]: Scheduler started
+2023-09-16 00:57:33,776 [INFO]: Using C:\Users\Admin\AppData\Local\Temp\tfhub_modules to cache modules.
+2023-09-16 00:57:51,084 [INFO]: Fingerprint not found. Saved model loading will continue.
+2023-09-16 00:58:12,702 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 00:58:12,703 [INFO]: Scheduler has been shut down
+2023-09-16 00:58:21,916 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2023-09-16 00:58:21,916 [INFO]: [33mPress CTRL+C to quit[0m
+2023-09-16 00:58:27,391 [INFO]: Scheduler started
+2023-09-16 00:58:49,553 [INFO]: Using C:\Users\Admin\AppData\Local\Temp\tfhub_modules to cache modules.
+2023-09-16 00:59:07,051 [INFO]: Fingerprint not found. Saved model loading will continue.
