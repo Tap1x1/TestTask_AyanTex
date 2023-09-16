@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from config import ALLOWED_EXTENSIONS, UPLOADS_FOLDER
 
@@ -28,7 +28,6 @@ def upload_template():
             return jsonify({"error": "No selected file"}), 400
 
         if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], 'template.jpg'))
             return jsonify({"message": "Template successfully uploaded"}), 200
         else:

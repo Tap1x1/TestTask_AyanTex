@@ -2,7 +2,6 @@ import logging
 
 from Levenshtein import distance
 
-
 logger = logging.getLogger(__name__)
 
 

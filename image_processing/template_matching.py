@@ -71,5 +71,3 @@ def detect_objects_and_extract_text(image_path, detection_model):
         return unique_texts
     except Exception as e:
         logger.error(f"Ошибка в detect_objects_and_extract_text: {str(e)}")
-
-

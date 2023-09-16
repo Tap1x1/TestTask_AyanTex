@@ -18,6 +18,7 @@ def setup_logger(log_file):
 # Обработка ошибок и логирование
 def error_handler(func):
     """Функция используется как декоратор для обработки ошибок в других функциях."""
+
     def wrapper(*args, **kwargs):
         try:
             return func(*args, **kwargs)
