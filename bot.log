@@ -235,3 +235,5 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2023-09-16 00:58:27,391 [INFO]: Scheduler started
 2023-09-16 00:58:49,553 [INFO]: Using C:\Users\Admin\AppData\Local\Temp\tfhub_modules to cache modules.
 2023-09-16 00:59:07,051 [INFO]: Fingerprint not found. Saved model loading will continue.
+2023-09-16 02:41:55,278 [INFO]: Received signal 2 (SIGINT), stopping...
+2023-09-16 02:41:59,407 [INFO]: Scheduler has been shut down
